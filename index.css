@@ -1,0 +1,147 @@
+header {
+    background-color: rgb(81, 170, 141);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  text-decoration: dashed;
+  word-spacing: normal;
+  line-height: 2px;
+  padding: 22px;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-weight: bold;
+}
+.miproyectopersonal {
+    background-color: rgb(81, 170, 141);
+    color: white;
+    text-align: start;
+    word-spacing:normal
+    padding: 10px;
+    font-size:28px;
+    text-transform: capitalize;
+    text-shadow: 4px 4px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.eduardoalaña {
+    background-color: rgb(81, 170, 141);
+    color: white;
+    text-align: start;
+    font-size: 26px;
+    word-spacing:normal
+    padding: 10px;
+  text-decoration: dashed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.estudiantedeprogramacion {
+background-color: rgb(81, 170, 141);
+color: white;
+padding: 8px;
+font-size: 20px;
+word-spacing:normal
+text-transform: uppercase;
+}
+p{
+    background-color: white;
+    color:black;
+    font-size: 25px;
+    padding: 6,5px;
+    font-family: Playpen Sans;
+}
+img {
+    width: 500px;
+    margin: auto;
+    border-radius: 1000px;
+    text-decoration-line: overline;
+}
+div{
+    color: rgb(81, 170, 141);
+    font-size: 18px;
+    font-family: Poppins;
+    text-align: center;
+}
+span{
+    color: rgb(81, 170, 141);
+    font-size: 18px;
+    font-family: Poppins;
+    text-align: center;
+}
+.ubicaciondecabimas {
+    color: rgb(81, 170, 141);
+    font-size: 25px;
+}
+.mispasatiemposfavoritos {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;
+    text-align: center;
+}
+.rankingdemiscomidasfavoritas {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;
+    text-align: center;
+}
+li {
+ color: rgb(81, 170, 141);
+ font-family: Libre Baskerville;
+ font-size: 17px;
+}
+dt {
+    color: rgb(81, 170, 141);
+    font-family: Kdam Thmor Pro;
+    font-size: 25px;
+    
+}
+dd {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    text-align: center;
+}
+.mihorariolunesaviernes {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    text-align: center;
+    font-size: 45px;
+}
+table {
+    border: 1px solid black;
+  width: 800px;
+  margin: auto;
+}
+.mihorariolosfinesdesemana {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    text-align: center;
+    font-size: 45px;
+}
+th,
+td {
+  border: 8px solid rgb(81, 170, 141);
+  width: 800px;
+  margin: auto;
+}
+.misgenerosmusicales {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    text-align: center;
+    font-size: 30px;
+}
+.reggaeton {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;
+    font-size: 20px;
+}
+.rap {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    font-size: 20px;
+}
+.redessociales {
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    font-size: 30px;
+    text-decoration: double;
+}
+.instagram {
+    color: darkviolet;
+    font-family: Poppins;;
+    font-size: 25px;
+}
