@@ -11,7 +11,7 @@ header {
   font-family: Poppins;
   font-weight: bold;
 }
-.miproyectopersonal {
+h1 {
     background-color: rgb(81, 170, 141);
     color: white;
     text-align: start;
@@ -110,7 +110,7 @@ table {
     color: rgb(81, 170, 141);
     font-family: Poppins;;
     text-align: center;
-    font-size: 45px;
+    font-size: 44px;
 }
 th,
 td {
@@ -143,5 +143,5 @@ td {
 .instagram {
     color: darkviolet;
     font-family: Poppins;;
-    font-size: 25px;
+    font-size: 18px;
 }
