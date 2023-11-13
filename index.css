@@ -1,23 +1,102 @@
-header {
-    background-color: rgb(81, 170, 141);
-  color: white;
-  text-align: center;
-  font-size: 28px;
-  text-decoration: dashed;
-  word-spacing: normal;
-  line-height: 2px;
-  padding: 22px;
-  text-transform: capitalize;
-  font-family: Poppins;
-  font-weight: bold;
+.parte1 {grid-area: header; }
+.parte2 { grid-area: nav; }
+.parte3 { grid-area: main; }
+.parte4 { grid-area: aside; }
+.parte5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header nav nav'
+    'main main main main aside aside'
+    'footer footer footer footer footer footer';
+  gap: 20px;
+  background-color: none;
+  padding: 15px;
 }
+
+.grid-container > header,nav,main,aside,footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: none;
+  
+}
+header{
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+@media screen and (min-width: 320px) {
+    header{
+        position: fixed;
+    text-align: center;
+    left: 500px;
+    }
+}
+@media screen and (min-width: 768px) {
+    header{
+        position: fixed;
+    text-align: center;
+    left: 350px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    header{
+        position: fixed;
+    text-align: center;
+    left: 500px;
+    }
+}
+
+.label-menu {
+    position: absolute;
+  }
+  .check-menu {
+    display: none;
+  }
+  .check-menu:checked + div {
+    transform: none;
+  }
+  .enlaces-menu {
+    display: grid;
+    grid: column;
+    text-align:left;
+    transform: translateY(-200%);
+    color: rgb(81, 170, 141);
+    font-size: 15px;
+    background-color: none;
+    
+  }
+
+  .material-symbols-outlined {
+    font-size: 17px;
+    color: rgb(81, 170, 141);
+  }
+  .material-symbols-outlined:hover{
+    color: blue;
+  }
+  .inicio1:hover{
+   color: rgb(81, 170, 141);
+  }
+  .pasatiemposfavoritos1:hover{
+    color: rgb(81, 170, 141);
+  }
+  .generosmusicales1:hover{
+    color: rgb(81, 170, 141);
+  }
+  .contacto1:hover{
+    color: rgb(81, 170, 141);
+  }
+
 h1 {
     background-color: rgb(81, 170, 141);
     color: white;
     text-align: start;
-    word-spacing:normal
+    word-spacing:normal;
     padding: 10px;
-    font-size:28px;
+    font-size: 28px;
     text-transform: capitalize;
     text-shadow: 4px 4px black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,7 +106,7 @@ h1 {
     color: white;
     text-align: start;
     font-size: 26px;
-    word-spacing:normal
+    word-spacing:normal;
     padding: 10px;
   text-decoration: dashed;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,17 +116,18 @@ background-color: rgb(81, 170, 141);
 color: white;
 padding: 8px;
 font-size: 20px;
-word-spacing:normal
-text-transform: uppercase;
+word-spacing:normal;
+text-transform: left;
+
 }
-p{
+.definicionon{
     background-color: white;
     color:black;
     font-size: 25px;
     padding: 6,5px;
     font-family: Playpen Sans;
 }
-img {
+.mifoto05 {
     width: 500px;
     margin: auto;
     border-radius: 1000px;
@@ -61,7 +141,7 @@ div{
 }
 span{
     color: rgb(81, 170, 141);
-    font-size: 18px;
+    font-size: 28px;
     font-family: Poppins;
     text-align: center;
 }
@@ -72,17 +152,19 @@ span{
 .mispasatiemposfavoritos {
     color: rgb(81, 170, 141);
     font-family: Poppins;
-    text-align: center;
+    font-size: 16px;
 }
 .rankingdemiscomidasfavoritas {
     color: rgb(81, 170, 141);
     font-family: Poppins;
     text-align: center;
+    font-size: 16px;
 }
 li {
  color: rgb(81, 170, 141);
  font-family: Libre Baskerville;
  font-size: 17px;
+ text-align: start;
 }
 dt {
     color: rgb(81, 170, 141);
@@ -129,20 +211,41 @@ td {
     color: rgb(81, 170, 141);
     font-family: Poppins;
     font-size: 20px;
+    
 }
 .rap {
     color: rgb(81, 170, 141);
     font-family: Poppins;;
     font-size: 20px;
+    
 }
+
+
 .redessociales {
     color: rgb(81, 170, 141);
     font-family: Poppins;;
     font-size: 30px;
     text-decoration: double;
+    text-align: center
 }
-.instagram {
-    color: darkviolet;
+.github {
+    color: rgb(81, 170, 141);
     font-family: Poppins;;
     font-size: 18px;
+    text-align: right;
+}
+.github:hover{
+    color: black
+}
+.botonparasubir:hover{
+    color: rgb(81, 170, 141);
+}
+.instagram{
+    color: rgb(81, 170, 141);
+    font-family: Poppins;;
+    font-size: 18px;
+    text-align: right;
+}
+.instagram:hover{
+    color: purple
 }
